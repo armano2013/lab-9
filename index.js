@@ -1,4 +1,4 @@
-    //master steps to get into the array of threads 
+    //master steps to get into the array of threads
     // $.get('https://www.reddit.com/r/aww/.json', function(responseBody){
     //     console.log(responseBody.data.children);
     //   });
@@ -47,7 +47,10 @@ $("button").click(function(){
 });
 
 //Andrew
-
+// image for first thread
+$.get('https://www.reddit.com/r/aww/.json', function(responseBody){
+    console.log(responseBody.data.children[0].data.url);
+  });
 
 
 
