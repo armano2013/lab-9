@@ -1,3 +1,10 @@
+    //master steps to get into the array of threads 
+    // $.get('https://www.reddit.com/r/aww/.json', function(responseBody){
+    //     console.log(responseBody.data.children);
+    //   });
+
+
+
 var message;
 $.get('https://www.reddit.com/r/aww/.json', function(responseBody){
     message = responseBody;
