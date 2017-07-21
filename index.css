@@ -4,5 +4,6 @@ fieldset{
     border: 5px solid #0088dd;
     padding: 10px;
     display: inline-block;
-    color:lightblue
+    color:lightblue;
+    margin-top: 10px;
 }
